@@ -1,0 +1,23 @@
+.jRecorder { min-width: 850px; width: auto; min-height: 32px; position: relative; padding: 5px; background: #E4F2FD; margin: auto; }
+
+.jRecorderLoading { width: 100%; position: absolute; z-index: 1; left: 0; top: 50%; font-size: 14px; margin-top: -7px; background: #E4F2FD; color: #d54e21; text-align: center; }
+.jRecorderWrapper { display: none; }
+
+.jRecorder .jRecPauseButton { float: left; margin: 0 10px 0 10px; width: 32px; height: 32px; background: url(../images/jRecPause.png) no-repeat bottom center; }
+.jRecorder .jRecPauseButton:hover { cursor: pointer; background: url(../images/jRecPause.png) no-repeat top center; }
+
+.jRecorder .jRecContinueButton { float: left; margin: 0 10px 0 10px; width: 32px; height: 32px; background: url(../images/jRecContinue.png) no-repeat bottom center; }
+.jRecorder .jRecContinueButton:hover { cursor: pointer; background: url(../images/jRecContinue.png) no-repeat top center; }
+
+.jRecorder .jRecRecordButton { float: left; margin: 0 10px 0 10px; width: 32px; height: 32px; background: url(../images/jRecRecord.png) no-repeat bottom center; }
+.jRecorder .jRecRecordButton:hover { cursor: pointer; background: url(../images/jRecRecord.png) no-repeat top center; }
+
+.jRecorder .jRecStopButton { float: left; margin: 0 10px 0 10px; width: 32px; height: 32px; background: url(../images/jRecStop.png) no-repeat bottom center; }
+.jRecorder .jRecStopButton:hover { cursor: pointer; background: url(../images/jRecStop.png) no-repeat top center; }
+
+.jRecorder select { float: left; margin: 5px 10px 0 10px; width: 260px; background: #ffffff; border: 1px solid #80b5d0; }
+.jRecorder select:hover, .jRecorder option:hover { cursor: pointer; }
+
+.jRecorder input { float: left; margin: 5px 10px 0 10px; width: 300px; background: #ffffff; border: 1px solid #80b5d0; }
+
+.jRecorder a.button-secondary { float: left; margin: 3px 10px 0 10px; }

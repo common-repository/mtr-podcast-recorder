@@ -1,0 +1,239 @@
+/*==============================================================================
+    Wrapper containers: 1 parent + 2 children floating in it
+==============================================================================*/
+#jRecPlaylistsSongsWrapper {
+    position: relative;
+    clear: both;
+    margin: 10px 10px 10px 0;
+    color: #2583ad;
+    min-width: 904px;
+    width: 100%;
+}
+
+#jRecPlaylistsWrapper {
+    position: relative;
+    float: left;
+    clear: left;
+    height: 100%;
+    margin-right: 20px;
+    min-width: 280px;
+    width: 31%;
+}
+
+#jRecSongsWrapper {
+    position: relative;
+    float: left;
+    clear: right;
+    height: 100%;
+    min-width: 600px;
+    width: 66.8%;
+}
+
+/*==============================================================================
+    "New Playlist" button
+==============================================================================*/
+#jRecBtnNewPlaylist {
+    float: left;
+    display: block;
+}
+#jRecBtnNewPlaylist:hover {
+    cursor: pointer;
+    color: #d54e21;
+    border: 1px solid #328ab2;
+}
+
+/*==============================================================================
+    Playlists table
+==============================================================================*/
+#jRecPlaylistsWrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#jRecPlaylistsWrapper table thead {
+    background: #464646;
+}
+#jRecPlaylistsWrapper table th {
+    padding: 5px;
+}
+#jRecPlaylistsWrapper table tr.even {
+    background: #ffffff;
+}
+#jRecPlaylistsWrapper table tr.odd {
+    background: #f9f9f9;
+}
+#jRecPlaylistsWrapper table tr {
+    border: 1px solid #cccccc;
+}
+#jRecPlaylistsWrapper table td {
+    padding: 5px;
+}
+#jRecPlaylistsWrapper table td a {
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+}
+#jRecPlaylistsWrapper table td a.current {
+    color: #ffffff;
+    background: #6699cc;
+}
+#jRecPlaylistsWrapper table td.text {
+    width: 220px;
+    overflow: hidden;
+}
+#jRecPlaylistsWrapper table td.actions {
+    width: 60px;
+}
+#jRecPlaylistsWrapper table td.actions img {
+    float: right;
+}
+#jRecPlaylistsWrapper table td.actions img:hover {
+    cursor: pointer;
+}
+
+/*==============================================================================
+    Recordings table
+==============================================================================*/
+#jRecSongsTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+#jRecSongsTable th {
+    padding: 10px;
+    background: #464646 !important;
+    color: #ffffff;
+}
+#jRecSongsTable tr.even {
+    background: #f9f9f9;
+}
+#jRecSongsTable tr.odd {
+    background: #ffffff;
+}
+#jRecSongsTable tr {
+    border: 1px solid #cccccc;
+}
+#jRecSongsTable td {
+    padding: 6px 10px;
+}
+#jRecSongsTable .odd {
+    background: #C3D3DF;
+}
+#jRecSongsTable .left {
+    text-align: left;
+}
+
+/*==============================================================================
+    Footer stuff
+==============================================================================*/
+.jRecCreatedBy {
+    float: right;
+    clear: both;
+    padding: 0;
+    color: #464646;
+}
+.jRecCreatedBy a {
+    text-decoration: none;
+}
+
+/*==============================================================================
+    Playlist action buttons
+==============================================================================*/
+.jRecPlaylistDelete {
+    width: 20px;
+    height: 20px;
+    background: url(../images/delete.png) no-repeat bottom center;
+    float: left;
+    margin: 0 5px;
+}
+.jRecPlaylistDelete:hover {
+    cursor: pointer;
+    background: url(../images/delete.png) no-repeat top center;
+}
+.jRecPlaylistEdit {
+    width: 20px;
+    height: 20px;
+    background: url(../images/edit.png) no-repeat bottom center;
+    float: left;
+    margin: 0 4px;
+}
+.jRecPlaylistEdit:hover {
+    cursor: pointer;
+    background: url(../images/edit.png) no-repeat top center;
+}
+
+/*==============================================================================
+    Recordings action buttons
+==============================================================================*/
+.jRecSongStatus {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 5px;
+}
+.jRecSongStatus:hover {
+    cursor: pointer;
+}
+.jRecSongStatus-on {
+    background: url(../images/status.png) no-repeat top center;
+}
+.jRecSongStatus-off {
+    background: url(../images/status.png) no-repeat bottom center;
+}
+.jRecSongPlay {
+    width: 20px;
+    height: 20px;
+    background: url(../images/play.png) no-repeat bottom center;
+    float: left;
+    margin: 0 5px;
+}
+.jRecSongPlay:hover {
+    cursor: pointer;
+    background: url(../images/play.png) no-repeat top center;
+}
+.jRecSongStop {
+    background: url(../images/stop.png) no-repeat bottom center;
+}
+.jRecSongStop:hover {
+    cursor: pointer;
+    background: url(../images/stop.png) no-repeat top center;
+}
+.jRecSongDelete {
+    width: 20px;
+    height: 20px;
+    background: url(../images/delete.png) no-repeat bottom center;
+    float: left;
+    margin: 0 5px;
+}
+.jRecSongDelete:hover {
+    cursor: pointer;
+    background: url(../images/delete.png) no-repeat top center;
+}
+.jRecSongDown {
+    width: 20px;
+    height: 20px;
+    background: url(../images/down.png) no-repeat bottom center;
+    float: left;
+    margin: 0 5px;
+}
+.jRecSongDown:hover {
+    cursor: pointer;
+    background: url(../images/down.png) no-repeat top center;
+}
+.jRecSongUp {
+    width: 20px;
+    height: 20px;
+    background: url(../images/up.png) no-repeat bottom center;
+    float: left;
+    margin: 0 5px;
+}
+.jRecSongUp:hover {
+    cursor: pointer;
+    background: url(../images/up.png) no-repeat top center;
+}
+
+/*==============================================================================
+    Generic classes
+==============================================================================*/
+.spacer {
+    clear: both;
+}
